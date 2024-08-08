@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5ecef;
+  line-height: 2.2;
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nav-header img {
+  margin-left: 0;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.fa-bars:hover {
+  color: black;
+}
+
+.menu a {
+  color: grey;
+  letter-spacing: 0.1rem;
+  display: block;
+  padding: 0.5rem;
+  transition: all 0.3s linear;
+}
+
+.menu a:hover {
+  background-color: #f8afa5;
+  color: blueviolet;
+  padding-left: 1.5rem;
+}
+
+.menu {
+  height: 0;
+  overflow: hidden;
+}
+
+.show-menu {
+  height: 10rem;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+@media (min-width: 800px) {
+  .nav-main {
+    /* max-width: 1170px; */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .nav-header {
+    padding: 0;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .menu {
+    height: auto;
+    display: flex;
+  }
+
+  .menu a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+
+  .menu a:hover {
+    padding: 0;
+    background: transparent;
+  }
+}
+
+/*Testimonials*/
+
+.testimonials1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+}
+.testimonial-container1 {
+  width: 700px;
+  height: 200px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  min-width: 400px;
+  padding: 70px 20px;
+  margin: 5px;
+  color: aliceblue;
+  position: relative;
+}
+
+.testimonial-container1 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+}
+
+.username {
+  font-size: 15px;
+  font-weight: 100;
+}
+.mainheading {
+  color: #f1f5f8;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  background-color: blueviolet;
+}
+
+/*Social Media Icons*/
+
+.follow {
+  margin: 1rem;
+  width: 400px;
+  border-radius: 0.25rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.follow p {
+  text-align: center;
+}
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.follow img {
+  margin: 0.1rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.main-content {
+  display: flex;
+}
+/*About Us*/
+.about-us {
+  margin: 2rem;
+}
+.about-us p {
+  width: 50rem;
+  margin-left: 4rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+/*Get Updates*/
+.updates {
+  margin-left: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+form {
+  margin: 1rem;
+}
+
+input {
+  font-size: 1rem;
+}
+
+button {
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*footer buckets */
+.footer-buckets {
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-bucket1 {
+  padding: 0 2rem 0 2rem;
+}
+.footer-bucket2 {
+  padding: 0 2rem 0 2rem;
+}
+.footer-bucket3 {
+  padding: 0 2rem 0 2rem;
+}
+.footer-bucket4 {
+  padding: 0 2rem 0 2rem;
+}
+.footer-bucket5 {
+  padding: 0 2rem 0 2rem;
+}
+
+.footer-bucket1 p {
+  font-size: small;
+  margin: 0 0 2px;
+}
+.footer-bucket2 p {
+  font-size: small;
+  margin: 0 0 2px;
+}
+.footer-bucket3 p {
+  font-size: small;
+  margin: 0 0 2px;
+}
+.footer-bucket4 p {
+  font-size: small;
+  margin: 0 0 2px;
+}
+.footer-bucket5 p {
+  font-size: small;
+  margin: 0 0 2px;
+}
+
+.footer-bucket1 h4 {
+  color: blueviolet;
+}
+.footer-bucket2 h4 {
+  color: blueviolet;
+}
+.footer-bucket3 h4 {
+  color: blueviolet;
+}
+.footer-bucket4 h4 {
+  color: blueviolet;
+}
+.footer-bucket5 h4 {
+  color: blueviolet;
+}
+
+/* Pet directory*/
+.pet-directory {
+  margin-top: 10rem;
+  display: flex;
+  direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet-image {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+  margin: 0.8rem;
+}
